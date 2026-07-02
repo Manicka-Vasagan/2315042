@@ -1,4 +1,5 @@
 const Log = require("./logger");
+
 async function main() {
     const result = await Log(
         "backend",
@@ -6,6 +7,8 @@ async function main() {
         "handler",
         "received string, expected bool"
     );
+
     console.log(result);
 }
+
 main();

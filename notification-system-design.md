@@ -1,1 +1,2 @@
 # Notification System Design
+The Notification System is designed to process and manage notification requests in a simple and organized way. When a user sends a request, it is received through the route and handled by the controller. The controller passes the request to the service layer, where the main processing takes place. During the execution, the logging middleware records important activities such as receiving the request, successful processing, and any errors that occur
